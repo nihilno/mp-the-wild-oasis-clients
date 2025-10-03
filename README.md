@@ -1,3 +1,3 @@
 # The Wild Oasis FullStack Project
 
-## Created with NextJS + Supabase + Tailwind
+## Created with NextJS + NextAuth + Supabase + Tailwind
