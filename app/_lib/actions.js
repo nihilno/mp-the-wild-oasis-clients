@@ -97,5 +97,5 @@ export async function createBookingAction(bookingData, formData) {
   if (error) throw new Error("Booking could not be created");
 
   revalidatePath(`/cabins/${bookingData.cabinId}`);
-  redirect("/cabins/ thankyou");
+  redirect("/cabins/thankyou");
 }
